@@ -1,0 +1,87 @@
+body{
+    background-image: url(Imagini/unnamed\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.container{
+    display: grid;
+    grid-template-columns: 30% auto;
+    column-gap: 40px;
+}
+
+section.left{
+    margin-left: 15px;
+}
+
+section.left div.title-left{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: white;
+    height: 65px;
+}
+
+section.left div.title-left h4{
+    text-align: center;
+    padding-top: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: slategrey;
+}
+
+section.left nav{
+    text-align: center;
+}
+
+section.left nav button{
+    background-color: slategrey;
+    margin-right: 15px;
+    height: 30px;
+    width: 80px;
+}
+
+section.left nav button a{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section.left div.search{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+section.left div.search input{
+    width: 300px;
+}
+
+section.orar div.logo{
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+section.orar div.logo img{
+    width: 130px;
+}
+
+section.orar div.logo h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: black;
+    margin: 0;
+    text-align: center;
+}
+
+
+section.orar table{
+    border-style: inset;
+    table-layout: auto;
+    border-color: black;
+    background-color: slategrey;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+section.orar table tr td.a{
+    width: 400px;
+}
