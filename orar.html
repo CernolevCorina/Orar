@@ -10,100 +10,192 @@
 </head>
 
 <body>
-    <section class="container">
-        <section class="left">
-            <div class="title-left">
-                <h4>Orarul Cursurilor</h4>
-            </div>
-            <nav>
-                <button><a href="#">Grupe</a></button>
-                <button><a href="#">Profesori</a></button>
-                <button><a href="#">Aule</a></button>
-            </nav>
-            <div class="search">
-                <input type="search" class="input-form">
-            </div>
-            <div class="Day">
-                <label for="select-d">Ziua:</label>
-                <select name="select-d" multiple size="7">
-                    <option value="2">Luni</option>
-                    <option value="3">Marti</option>
-                    <option value="4">Miercuri</option>
-                    <option value="5">Joi</option>
-                    <option value="6">Vineri</option>
-                    <option value="7">Sambata</option>
-                    <option value="8">Duminica</option>
-                </select>
-            </div>
-            <div class="Week">
-                <select name="Saptamana" multiple size="6">
-                    <option value="1">Saptamana</option>
-                    <option value="2">1</option>
-                    <option value="3">2</option>
-                    <option value="4">3</option>
-                    <option value="5">4</option>
-                    <option value="6">5</option>
-                </select>
-            </div>
-            <div class="Table">
-
-            </div>
-            <div class="Legend">
-                <p>P-Prelegere</p>
-                <p>S-Semninar</p>
-                <p>L-Laborator</p>
-                <p>PC-Proiect de Curs</p>
-                <p>EP-Evaluare periodica</p>
-                <p>C-Consultatie</p>
-                <p>E-Examinare</p>
-                <p>R-Reexaminare</p>
-            </div>
-            <div class="Icon">
-                <button> <a href="#">Descarca orar</a></button>
-                <button> <a href="#">Google Play</a> </button>
-                <button> <a href="#">Icon</a> </button>
-                <button> <a href="#">Student</a> </button>
-                <button> <a href="#">Examene</a> </button>
-            </div>
+    <div class="logo">
+        <img src="Imagini/1637260772069.png" alt="Logo">
+        <h1>Universitatea de Stat "Alecu Russo" din Balti</h1>
+    </div>
+    <main>
+        <section class="container">
+            <section class="left">
+                <div class="title-left">
+                    <h4>Orarul Cursurilor</h4>
+                </div>
+                <nav>
+                    <button><a href="#">Grupe</a></button>
+                    <button><a href="#">Profesori</a></button>
+                    <button><a href="#">Aule</a></button>
+                </nav>
+                <div class="search">
+                    <input type="search" class="input-form">
+                </div>
+                <div class="Group">
+                    <p>Grupa:</p>
+                    <select name="select-d" multiple size="4">
+                        <option value="1">101</option>
+                        <option value="2">102</option>
+                        <option value="3">103</option>
+                        <option value="4">104</option>
+                        <option value="5">105</option>
+                        <option value="6">IT11Z</option>
+                        <option value="7">AG11Z</option>
+                        <option value="8">IS11Z</option>
+                        <option value="9">BG11Z</option>
+                    </select>
+                </div>
+                <div class="Day">
+                    <p>Ziua:</p>
+                    <select name="select-d">
+                        <option value="1">Luni</option>
+                        <option value="2">Marti</option>
+                        <option value="3">Miercuri</option>
+                        <option value="4">Joi</option>
+                        <option value="5">Vineri</option>
+                        <option value="6">Sambata</option>
+                        <option value="7">Duminica</option>
+                    </select>
+                </div>
+                <div class="Week">
+                    <p>Saptamana</p>
+                    <select name="Saptamana">
+                        <option value="2">1</option>
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                        <option value="5">4</option>
+                        <option value="6">5</option>
+                    </select>
+                </div>
+                <div class="Semester">
+                    <p>Semestru</p>
+                    <select name="Semester">
+                        <option value="2">1</option>
+                        <option value="3">2</option>
+                    </select>
+                </div>
+                <div class="Table">
+                    <span id="Number"></span>
+                    <span id="Number">1</span>
+                    <span id="Number">2</span>
+                    <span id="Number">3</span>
+                    <span id="Number">4</span>
+                    <span id="Number">5</span>
+                    <span id="Number">6</span>
+                    <span id="Number">7</span>
+                    <span id="Day"><a href="#">Luni</a> </span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span id="Day"><a href="#">Marti</a> </span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span id="Day"><a href="#"> Miercuri</a></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span id="Day"><a href="#">Joi</a> </span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span id="Day"><a href="#">Vineri</a> </span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span id="Day"><a href="#">Sambata</a> </span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span id="Day"><a href="#">Duminica</a> </span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="Legend">
+                    <p>P-Prelegere</p>
+                    <p>S-Semninar</p>
+                    <p>L-Laborator</p>
+                    <p>PC-Proiect de Curs</p>
+                    <p>EP-Evaluare periodica</p>
+                    <p>C-Consultatie</p>
+                    <p>E-Examinare</p>
+                    <p>R-Reexaminare</p>
+                </div>
+                <div class="Icon">
+                    <button> <a href="#">Descarca orar</a></button>
+                    <button> <a href="#">Google Play</a> </button>
+                    <button> <a href="#">Icon</a> </button>
+                    <button> <a href="#">Student</a> </button>
+                    <button> <a href="#">Examene</a> </button>
+                </div>
+            </section>
+            <section class="orar">
+                <div class="Lessons">
+                    <span id="hour">
+                        <p>8:00</p>
+                        <p>9:30</p>
+                    </span>
+                    <span></span>
+                    <span id="hour">
+                        <p>9:45</p>
+                        <p>11:15</p>
+                    </span>
+                    <span></span>
+                    <span id="hour">
+                        <p>11:30</p>
+                        <p>13:00</p>
+                    </span>
+                    <span></span>
+                    <span id="hour">
+                        <p>13:15</p>
+                        <p>14:45</p>
+                    </span>
+                    <span></span>
+                    <span id="hour">
+                        <p>15:00</p>
+                        <p>16:30</p>
+                    </span>
+                    <span></span>
+                    <span id="hour">
+                        <p>16:45</p>
+                        <p>18:15</p>
+                    </span>
+                    <span></span>
+                    <span id="hour">
+                        <p>18:30</p>
+                        <p>20:00</p>
+                    </span>
+                    <span></span>
+                </div>
+            </section>
         </section>
-        <section class="orar">
-            <div class="logo">
-                <img src="Imagini/Logo_USB.jpg" alt="Logo">
-                <h1>Universitatea de Stat "Alecu Russo" din Balti</h1>
-            </div>
-            <div class="Lessons"></div>
-            <table border="5">
-                <tr>
-                    <td>8:00 <br> 9:30</td>
-                    <td class="a"></td>
-                </tr>
-                <tr>
-                    <td>9:45 <br> 11:15</td>
-                    <td class="a"></td>
-                </tr>
-                <tr>
-                    <td>11:30 <br> 13:00</td>
-                    <td class="a"></td>
-                </tr>
-                <tr>
-                    <td>13:15 <br> 14:45</td>
-                    <td class="a"></td>
-                </tr>
-                <tr>
-                    <td>15:00 <br> 16:30</td>
-                    <td class="a"></td>
-                </tr>
-                <tr>
-                    <td>16:45 <br> 18:15</td>
-                    <td class="a"></td>
-                </tr>
-                <tr>
-                    <td>18:30 <br> 20:00</td>
-                    <td class="a"></td>
-                </tr>
-            </table>
-        </section>
-    </section>
+    </main>
 </body>
 
 </html>

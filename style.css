@@ -1,7 +1,31 @@
 body{
-    background-image: url(Imagini/unnamed\ \(1\).jpg);
+    background-image: url(Imagini/depositphotos_61267719-stock-illustration-set-of-chalk-hand-drawing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+div.logo{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+div.logo img{
+    width: 130px;
+}
+
+div.logo h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: green;
+    text-align: center;
+}
+
+
+main{
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 section.container{
@@ -18,7 +42,7 @@ section.left div.title-left{
     margin-top: 5px;
     margin-bottom: 15px;
     background-color: white;
-    height: 65px;
+    min-height: 65px;
 }
 
 section.left div.title-left h4{
@@ -52,26 +76,91 @@ section.left div.search{
 }
 
 section.left div.search input{
-    width: 300px;
+    width: 100%;
 }
 
-section.orar div.logo{
-    display: grid;
-    grid-template-columns: 150px auto;
-}
-
-section.orar div.logo img{
-    width: 130px;
-}
-
-section.orar div.logo h1{
+section.left p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-    color: black;
-    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: green;
+}
+
+section.left div.Group select,
+section.left div.Day select ,
+section.left div.Week select ,
+section.left div.Semester select {
+    width: 100%;
+    background-color: slategrey;
+}
+
+section.left div.Table{
+    display: grid;
+    grid-template-columns: 80px repeat(7, 1fr);
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+section.left div.Table span{
+    border: 1px inset black;
+}
+
+section.left div.Table #Number, #Day{
+    background-color: slategrey;
     text-align: center;
 }
 
+section.left div.Table #Day a{
+    text-decoration: none;
+    color: black;
+}
+
+section.left div.Legend p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+    margin: 0;
+}
+
+section.left div.Legend{
+    margin-bottom: 20px;
+}
+
+section.left div.Icon button{
+    background-color: green;
+}
+
+section.left div.Icon button a{
+    text-decoration: none;
+    color: black;
+}
+
+section.orar div.Lessons{
+    display: grid;
+    grid-template-columns: 80px auto;
+    background-color: white;
+    margin-top: 150px;
+}
+
+section.orar div.Lessons span{
+    border: 1px inset black;
+}
+
+section.orar div.Lessons span#hour{
+    background-color: slategrey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+section.orar div.Lessons span p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14;
+    margin: 0px;
+}
 
 section.orar table{
     border-style: inset;
