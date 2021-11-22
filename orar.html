@@ -21,9 +21,9 @@
                     <h4>Orarul Cursurilor</h4>
                 </div>
                 <nav>
-                    <button><a href="#">Grupe</a></button>
-                    <button><a href="#">Profesori</a></button>
-                    <button><a href="#">Aule</a></button>
+                    <button class="button-nav"><a href="#">Grupe</a></button>
+                    <button class="button-nav"><a href="#">Profesori</a></button>
+                    <button class="button-nav"><a href="#">Aule</a></button>
                 </nav>
                 <div class="search">
                     <input type="search" class="input-form">
@@ -31,15 +31,15 @@
                 <div class="Group">
                     <p>Grupa:</p>
                     <select name="select-d" multiple size="4">
-                        <option value="1">101</option>
-                        <option value="2">102</option>
-                        <option value="3">103</option>
-                        <option value="4">104</option>
-                        <option value="5">105</option>
-                        <option value="6">IT11Z</option>
-                        <option value="7">AG11Z</option>
-                        <option value="8">IS11Z</option>
-                        <option value="9">BG11Z</option>
+                        <option value="1" class="hover-white">101</option>
+                        <option value="2" class="hover-white">102</option>
+                        <option value="3" class="hover-white">103</option>
+                        <option value="4" class="hover-white">104</option>
+                        <option value="5" class="hover-white">105</option>
+                        <option value="6" class="hover-white">IT11Z</option>
+                        <option value="7" class="hover-white">AG11Z</option>
+                        <option value="8" class="hover-white">IS11Z</option>
+                        <option value="9" class="hover-white">BG11Z</option>
                     </select>
                 </div>
                 <div class="Day">
@@ -72,70 +72,86 @@
                     </select>
                 </div>
                 <div class="Table">
-                    <span id="Number"></span>
-                    <span id="Number">1</span>
-                    <span id="Number">2</span>
-                    <span id="Number">3</span>
-                    <span id="Number">4</span>
-                    <span id="Number">5</span>
-                    <span id="Number">6</span>
-                    <span id="Number">7</span>
-                    <span id="Day"><a href="#">Luni</a> </span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span id="Day"><a href="#">Marti</a> </span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span id="Day"><a href="#"> Miercuri</a></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span id="Day"><a href="#">Joi</a> </span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span id="Day"><a href="#">Vineri</a> </span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span id="Day"><a href="#">Sambata</a> </span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span id="Day"><a href="#">Duminica</a> </span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <span id="Row">
+                        <span id="Day"></span>
+                        <span id="Number">1</span>
+                        <span id="Number">2 </span>
+                        <span id="Number">3</span>
+                        <span id="Number">4 </span>
+                        <span id="Number">5 </span>
+                        <span id="Number">6 </span>
+                        <span id="Number">7 </span>
+                    </span>
+                    <span id="Row">
+                        <span id="Day"><a href="#">Luni</a> </span>
+                        <span id="BP">P</span>
+                        <span id="SD">S</span>
+                        <span id="SD">L</span>
+                        <span></span>
+                        <span id="AG">L</span>
+                        <span id="Mat">EP</span>
+                        <span></span>
+                    </span>
+                    <span id="Row">
+                        <span id="Day"><a href="#">Marti</a></span>
+                        <span id="LE">L</span>
+                        <span id="PPW">L</span>
+                        <span id="PPW">L</span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <span id="Row">
+                        <span id="Day"><a href="#"> Miercuri</a></span>
+                        <span></span>
+                        <span id="PPW">L</span>
+                        <span id="PPW">L</span>
+                        <span id="Mat">S</span>
+                        <span id="SD">L</span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <span id="Row">
+                        <span id="Day"><a href="#">Joi</a></span>
+                        <span></span>
+                        <span id="LE">L</span>
+                        <span id="BPL">L</span>
+                        <span id="BPL">L</span>
+                        <span id="Mat">P</span>
+                        <span id="SD">EP</span>
+                        <span></span>
+                    </span>
+                    <span id="Row">
+                        <span id="Day"><a href="#">Vineri</a></span>
+                        <span id="PPW">EP</span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span id="AGP">P</span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <span id="Row">
+                        <span id="Day"><a href="#">Sambata</a></span>
+                        <span id="SM">P</span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <span id="Row">
+                        <span id="Day"><a href="#">Duminica</a></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
                 </div>
                 <div class="Legend">
                     <p>P-Prelegere</p>
@@ -157,41 +173,80 @@
             </section>
             <section class="orar">
                 <div class="Lessons">
-                    <span id="hour">
-                        <p>8:00</p>
-                        <p>9:30</p>
+                    <span id="C">
+                        <span id="hour">
+                            <p>8:00</p>
+                            <p>9:30</p>
+                        </span>
+                        <span>
+                            <p><strong>Bazele programarii I</strong></p>
+                            <p>Prelegeri</p>
+                            <p>conf. univ., dr.Moglan D.</p>
+                            <p><strong>videoconferinta</strong></p>
+                        </span>
                     </span>
-                    <span></span>
-                    <span id="hour">
-                        <p>9:45</p>
-                        <p>11:15</p>
+                    <span id="C">
+                        <span id="hour">
+                            <p>9:45</p>
+                            <p>11:15</p>
+                        </span>
+                        <span>
+                            <p><strong>Structuri discrete</strong></p>
+                            <p>Seminar</p>
+                            <p>asist. univ. Ticau V.</p>
+                            <p><strong>videoconferinta</strong></p>
+                        </span>
                     </span>
-                    <span></span>
-                    <span id="hour">
-                        <p>11:30</p>
-                        <p>13:00</p>
+                    <span id="C">
+                        <span id="hour">
+                            <p>11:30</p>
+                            <p>13:00</p>
+                        </span>
+                        <span>
+                            <p><strong>Structuri discrete</strong></p>
+                            <p>Laborator (Sb.2)</p>
+                            <p>asist. univ. Ticau V.</p>
+                            <p><strong>videoconferinta</strong></p>
+                        </span>
                     </span>
-                    <span></span>
-                    <span id="hour">
-                        <p>13:15</p>
-                        <p>14:45</p>
+                    <span id="C">
+                        <span id="hour">
+                            <p>13:15</p>
+                            <p>14:45</p>
+                        </span>
+                        <span></span>
                     </span>
-                    <span></span>
-                    <span id="hour">
-                        <p>15:00</p>
-                        <p>16:30</p>
+                    <span id="C">
+                        <span id="hour">
+                            <p>15:00</p>
+                            <p>16:30</p>
+                        </span>
+                        <span>
+                            <p><strong>Aplicatii generice</strong></p>
+                            <p>Laborator (Sb.2)</p>
+                            <p>asist. univ Gorea A.</p>
+                            <p><strong>videoconferinta</strong></p>
+                        </span>
                     </span>
-                    <span></span>
-                    <span id="hour">
-                        <p>16:45</p>
-                        <p>18:15</p>
+                    <span id="C">
+                        <span id="hour">
+                            <p>16:45</p>
+                            <p>18:15</p>
+                        </span>
+                        <span>
+                            <p><strong>Reevaluare periodica</strong></p>
+                            <p>Evaluare periodica</p>
+                            <p>prof. Ciobanu I.</p>
+                            <p><strong>videoconferinta</strong></p>
+                        </span>
                     </span>
-                    <span></span>
-                    <span id="hour">
-                        <p>18:30</p>
-                        <p>20:00</p>
+                    <span id="C">
+                        <span id="hour">
+                            <p>18:30</p>
+                            <p>20:00</p>
+                        </span>
+                        <span></span>
                     </span>
-                    <span></span>
                 </div>
             </section>
         </section>
